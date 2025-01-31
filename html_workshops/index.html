@@ -3,47 +3,79 @@
 <html lang = "en-AU"> <!-- Tags are not case sensitive. -->
 
 <head>
-    <title>HTML Learning Experience</title>
-    <style> 
-       body {font-family: 'Courier New', Courier, monospace; 
-            background-color: aliceblue}
-    </style>
+    <title>Learning Raw Markup</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel = "stylesheet", href = "styles.css">
 </head>
 
 <body>
 
-    <h1 title="I love being paid to learn." 
-    style = "font-size:40px;">Interactively Learning HTML</h1> 
+    <h1 title="I love being paid to learn.">Interactively Learning HTML, CSS and 
+        Javascript</h1> 
+
+    <p><a href="#L1">Where else can you find me?</a></p>
+    <p><a href="#L2">See my current WIPs</a></p>
+    <a href = "new_page.html" target = "_blank">New Page</a>
 
     <p>Within the 
         body, lies the bones (HTML files). Change them bones.</p>
     
-    <p> All I can say is that it was complicated back in Canaan House, 
+    <p id = "sapphicParagraph"> All I can say is that it was complicated back in Canaan House, 
     and sometimes a cute older girl shows you a lot of attention, because she’s 
     bored or whatever, and you sort of have this maybe-flirting maybe-not thing 
     going on, right, and then it turns out she’s an ancient warrior who’s killed 
     all your friends and she’s coming for you, and then you both die and she 
     turns up ages later in the broiling heat on a sacred space station and like, 
     it’s complicated. Just saying that it happens all the time. </p>
-    
-    <a href="https://archiveofourown.org/users/facelessSunlight"> 
-        Here is my AO3 account.</a> <!-- attribute is the href -->
-    
-    <br> <!-- A line break. Doesn't require an end tag. -->
+
+    <img src = "images/the_wave.png" alt = "the vegetarian">
+
     <br>
-    <img src="images/the_mask.png" alt="Melania Trump" width = "100px"> 
+
+    <div>
+        <h2 id="L1"> Links </h2>
+
+        <a href = "https://archiveofourown.org/users/facelessSunlight" 
+        target = "_blank">  
+            <p style = "text-align: center; color: black; margin:auto;">
+                Here is my AO3 account.</p></a>
+
+        <br>        
+        
+        <a href = "https://www.tumblr.com/blog/facelessinthesun" 
+        target = "_blank">  
+            <p style = "text-align: center; color: black; margin:auto;">
+                Here is my Tumblr (I don't use it often).</p></a>
+
+        <br>
+
+    </div>
+
+    <h2 id="L2"> What I'm Current Writing </h2>
+
+    <table class = "centre">
+        <tr>
+            <th>Title</th>
+            <th>Fandom</th>
+            <th>Details</th>
+        </tr>
+        <tr>
+            <td>downward dog</td>
+            <td>Star Wars: Dinluke, </td>
+            <td>Modern AU</td>
+        </tr>
+        <tr>
+            <td>untitled heist</td>
+            <td>Star Wars: Dinluke, Original Trilogy, BOBF, the Mandalorian</td>
+            <td>Canon Divergence, in a big way</td>
+        </tr>
+        <tr>
+            <td>untitled reimagining</td>
+            <td>The Last of Us</td>
+            <td>GenderBent</td>
+        </tr>
+    </table> 
+ 
     
     </body>
 </html>
-
-<!-- 
-
-HTML basic layout.
-1. Document type declaration - <!DOCTYPE html>
-2. Total HTML document wrapper - <html></html>
-3. Visible part - <body></body>
-
-file:///Users/lauragrace/Documents/paid_work/Persephia/
- repos/learning_frontend_dev/html_workshops/index.html 
- 
- -->
